@@ -1,0 +1,30 @@
+{
+  "model": "deepseek-coder:1.3b",
+  "project_root": ".",
+  "excluded_dirs": [
+    "node_modules",
+    ".git",
+    "__pycache__",
+    "venv",
+    ".vscode",
+    "env"
+  ],
+  "allowed_extensions": [
+    ".py",
+    ".js",
+    ".ts",
+    ".jsx",
+    ".tsx",
+    ".java",
+    ".cpp",
+    ".c",
+    ".cs",
+    ".go",
+    ".rs",
+    ".html",
+    ".css",
+    ".json",
+    ".md",
+    ".txt"
+  ]
+}
