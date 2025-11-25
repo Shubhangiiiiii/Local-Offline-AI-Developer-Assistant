@@ -106,17 +106,30 @@ This model gives high-quality output while staying fast and lightweight.
 
 
 
-**Project Structure **
+**Project Structure**
+
+
+
 Local-Offline-AI-Developer-Assistant/
+
 │── cli.py                # Command-line interface
+
 │── ollama_client.py      # Communication with DeepSeek Coder
+
 │── mcp_server.py         # (Optional) MCP server file
+
 │── config.json           # Allowed extensions, excluded folders
+
 │── requirements.txt      # Python dependencies
+
 │── test.py               # Sample file for testing
+
 │── tools/
+
 │   ├── file_ops.py       # File reading/listing helper
+
 │   └── search.py         # Project-wide code search
+
 └── .gitignore            # Ignore unnecessary files
 
 
